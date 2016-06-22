@@ -1,0 +1,29 @@
+.marketContainer{
+	position: fixed;
+    background: #B57963;
+    height: 53%;
+    width: 50%;
+    top: 14%;
+    left: 25%;
+    border-style: double;
+    border-width: thick;
+    border-color: #f0d120;
+    border-radius: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.marketSubContainer{
+	    position: relative;
+    min-width: 37%;
+    height: 90%;
+    top: 4%;
+    background: #B57963;
+    border-style: double;
+    border-width: thick;
+    border-color: #f0d120;
+    border-radius: 30px;
+    margin: 4px;
+}
+

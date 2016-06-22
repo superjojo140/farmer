@@ -1,0 +1,121 @@
+.gameWindow{
+	overflow: auto;
+	position: absolute; 	
+	border-style: solid;
+	border-color: white;
+	background:  white;
+	height: 80%;
+	width: 70%;
+	left: 15%;	
+}
+
+  ::-webkit-scrollbar {
+    width:0;
+	height:0;
+}
+
+.farmer{
+	position: absolute;
+	z-index: 3;
+	left: 0px;
+	top: 0px;
+}
+
+.field{
+	position: absolute;
+	z-index : 1;
+	padding: 0px;
+	margin: 0px;
+}
+
+.marked{
+	position: absolute;
+	z-index:  2;
+	width: 57px;
+	height: 57px;
+	border-style: dashed;
+	border-color: #f0d120;
+	border-width: 3px;
+	border-radius: 10px;
+	opacity: 0.7;
+	
+}
+
+.menuBar{
+	position: absolute;
+    z-index: 12;    width: 96%;
+    height: 15%;
+    left: 2%; 
+    top: 83%;
+    border-style: solid;
+    border-color: #9A6F60;
+    border-width: 3px;
+    border-radius: 18px;
+    background: #793C24;
+}
+
+.menuLabel{
+	position: absolute;
+	z-index : 11;
+	width: 100%;
+	height: 10%;
+	left: 0;
+	top: 10%;
+	background-color: #9A6F60;
+}
+
+.toolWindow{
+	position: absolute;
+    left: 5%;
+    top: 10%;
+    border-style: solid;
+    border-color: #9EA933;
+    border-width: 6px;
+    border-radius: 18px;	
+}
+
+.numberBadge{
+	position: absolute;
+	bottom: 10%;
+    border-radius: 10px;
+    background: #CC8166;
+    color: white;
+    font-family: verdana;
+    padding: 3px;
+	float: right;
+}
+
+.menuButton{
+    border-style: solid;
+    border-color: #4D1F10;
+    border-width: 5px;
+    border-radius: 2px;
+    background: #5B2E1C;
+    visibility: inherit;
+	margin: 2px;
+}
+
+
+.selectBox{
+	position: absolute; 
+	padding: 3px;
+    top: 15%;
+    border-style: solid;
+    border-color: #9EA933;
+    border-width: 2px;
+    border-radius: 4px;
+    visibility: hidden; 
+	overflow-x: auto;
+	overflow-y:hidden;
+	display:flex;
+}
+
+
+
+
+
+
+
+
+
+
