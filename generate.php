@@ -5,6 +5,8 @@ include('dbconnect.php');
 function generateTopMenu(){
 	global $db;
 	
+	echo "schalalalalalala";
+	
 	echo '<div class="selectBox" id="topMenuSelectBox" style="left: 20%;">';
 	
 	$befehl = "SELECT * FROM farmer WHERE type='topMenu';";
