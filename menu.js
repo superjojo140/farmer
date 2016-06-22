@@ -45,7 +45,10 @@ function buttonSelected() {
 		
 		var container = document.getElementById(onAction);
 		container.style.visibility = "visible";
-		setData("mode", "subMenu");
+		if (onAction == "subMenu3")
+			setData("mode","market");
+		else
+				setData("mode", "subMenu");
 		setFocus(onAction + "-1");
 		document.getElementById(onAction).scrollLeft=0;
 

@@ -1,0 +1,47 @@
+.infoBox{
+	position: absolute;
+    border-radius: 2px;
+    color: white;
+    left: 81%;
+    top: 10%;
+    height: 80%;
+    width: 17%;
+}
+
+.infoImage{
+	width: 16%;
+    border-style: solid;
+    border-color: #9EA933;
+    border-radius: 5px;
+    padding: 1%;
+    margin-right: 3%;
+    float: left;
+}
+
+.infoHeader{
+	color: #f0d120;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.infoContent{
+	text-size: small;
+}
+
+.infoBarContainer{
+	position: absolute;
+    width: 93%;
+    height: 6%;
+    top: 90%;
+    border-style: solid;
+    border-color: #f0d120;
+    border-radius: 10px;
+}
+
+.infoBar{
+	position: absolute;
+    width: 78%;
+    height: 100%;
+    background: #9ea933;
+	visibility:inherit;
+}

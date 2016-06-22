@@ -61,6 +61,8 @@ function harvest(id){
 	var output = getData(plant+"Output");
 	output = output.split("*");  //output is for example "2*pumpkin"
 	manageCount(output[1],output[0]);
+	
+	setInfoBox(id,"fieldState");
 }
 
 function plow(id){
@@ -73,6 +75,8 @@ function plow(id){
 	field.setAttribute("data-growState","0");
 	field.setAttribute("data-intervall",0);
 	field.setAttribute("data-plantType","null");
+	
+	setInfoBox(id,"fieldState");
 }
 
 
